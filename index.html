@@ -32,6 +32,17 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Dashboard</a>
           </li>
+          <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tools
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item text-justify" href="fileUpload.html">Compare files</a>
+                    <a class="dropdown-item text-justify" href="grammarChecker.html">Grammar Check</a>
+                    <a class="dropdown-item text-justify" href="fileDuplicate.html">Check for Duplicates</a>
+                  </div>
+            </li>
+
           <li class="nav-item">
             <a class="nav-link" href="#">Logout</a>
           </li>
@@ -46,33 +57,29 @@
 
     <div class="row">
         <section class="col-3 pr-3 userprofile-col">
-            <div class="profile-name">
-                Welcome Mike
-            </div>
-
-            <div class = "profile-info-bloc">
-            <p class="small-spaced-text">Profile Information</p>
-            <h5>Subscription <button class="btn prof-btn mr-2 p-bloc-btn">Basic Plan</button></h5>
-            <p class="m-0 font-nine">Duration Forever</p>
+            <div class = "profile-info-bloc p-0">
+            <p class="small-spaced-text p-0">Profile Information</p>
+            <h5>Subscription <span class="prof-btn mr-2 p-bloc-btn">Basic Plan</span></h5>
+            <p class="m-0 font-nine">Duration: Forever</p>
             <p class="font-nine">Limit: 20mb/month upload</p>
             </div>
 
             <div class = "profile-info-bloc">
             <h5>Total Documents Analyzed</h5>
-             <button class="btn prof-btn mr-2 mt-4">3</button>
+             <span class="btn prof-btn mr-2 mt-4">3</span>
             </div>
 
             <div class = "profile-info-bloc">
             <h5 class="mb-4">Recently Analyzed Documents</h5>
 
-            <button class="btn prof-btn mb-4 mr-2 d-block">Document Title 1</button>
-            <button class="btn prof-btn mb-4 mr-2 d-block">Document Title 2</button>
-            <button class="btn prof-btn mb-4 mr-2 d-block">Document Title 3</button>
+            <span class="btn prof-btn mb-4 mr-2 d-block">Document Title 1</span>
+            <span class="btn prof-btn mb-4 mr-2 d-block">Document Title 2</span>
+            <span class="btn prof-btn mb-4 mr-2 d-block">Document Title 3</span>
            </div>
             
         </section>
-        <section class="col-9 pl-md-5 userprofile-col">
-            <h4 class="userprofile-name shaded-black">Mr Xyluz <span class="userprofile-location"><i class="fa fa-map-marker" aria-hidden="true"></i> Lagos, NG</span></h4>
+        <section class="col-9 pl-md-5 userprofile-col profile-details">
+            <h4 class="userprofile-name shaded-black">Mr Xyluz</h4>
             <p class="userprofile-plan medium-purple-text">Basic User</p>
             <p class="userprofile-date small-spaced-text">Date Registered <span>29th October, 2019</span></p>
             <button class="userprofile-changeplan btn prof-btn p-bloc-btn mr-2"><i class="fa fa-pencil" aria-hidden="true"></i> Change Plan</button>

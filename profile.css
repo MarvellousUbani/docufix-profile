@@ -4,7 +4,7 @@
         .profile-box{
             background:#F8F9FA;
             border-radius: 8px;
-            padding:1.5rem 3.5rem;
+            padding:1.5rem 3.5rem 4rem 3.5rem;
         }
 
         .profile-box .navbar{
@@ -164,6 +164,11 @@
 
             .logo-img{
                 max-width: 80px;
+            }
+
+            .profile-details{
+                order:-1;
+                margin-bottom: 3rem;
             }
 
 
